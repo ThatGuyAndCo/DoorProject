@@ -1513,6 +1513,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_anim: {fileID: 0}
+  m_audioClips:
+  - {fileID: 8300000, guid: 098735b0c0a1cad4f8fb50cf64ec7a4e, type: 3}
+  - {fileID: 8300000, guid: 771ba12eb1c213b4885774b456fa19c0, type: 3}
 --- !u!82 &1647094409
 AudioSource:
   m_ObjectHideFlags: 0

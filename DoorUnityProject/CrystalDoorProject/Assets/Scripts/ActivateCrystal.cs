@@ -7,6 +7,9 @@ public class ActivateCrystal : MonoBehaviour {
 	[SerializeField]
 	private Animator m_anim;
 
+	[SerializeField]
+	private AudioClip[] m_audioClips;
+
 	// Use this for initialization
 	void Start () {
 		m_anim = GetComponent<Animator> ();
