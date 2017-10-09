@@ -1,0 +1,252 @@
+<Root FileVersion="6.000000" Transpose="0" SaveVersion="1" RestoreUIPage="2" RestoreInstrumentIndex="3">
+   <TrackMap Instr0="15" Instr1="0" Instr2="1" Instr3="2" Instr4="3" Instr5="4" Instr6="5" Instr7="6" Instr8="7" Instr9="8" Instr10="9" Instr11="10" Instr12="11" Instr13="12" Instr14="13" Instr15="14"/>
+   <Instruments>
+      <Instr Type="Mixer" Index="0" MIDIInTranspose="0" InChan="0" InsertFX="4">
+         <MixerChannels>
+            <Channel00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <RETURNS/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+         </MixerChannels>
+         <AM>
+            <Send00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1 Type="E-SPACE">
+                        <Patch Preset="Hall 1" Enable="1" DryWet="1.000000"/>
+                     </SLOT1>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Send00>
+            <Send01 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1 Type="CHRONOS">
+                        <Patch Version="2" Type="X-Delay" Enable="1" Sync="1" CRate="0.120000" CDelay="0.015000" CDepth="0.065000" CFeedback="0.170000" DTime="0.500000" DBeatTime="1/4" DFeedback="0.170000" DAmount="1.000000"/>
+                     </SLOT1>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Send01>
+         </AM>
+         <UI Name="Mixer"/>
+      </Instr>
+      <Instr Type="TRG" Index="1" MIDIInTranspose="0" MainPage="0">
+         <MixerChannels>
+            <Channel00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+            <Channel01 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel01>
+            <Channel02 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel02>
+         </MixerChannels>
+         <AM Mute="0">
+            <Pad0 Nam="/User/TRG Banks/Default.trg/BD.wav" Vol="1.000000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="9727" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad0>
+            <Pad1 Nam="/User/TRG Banks/Default.trg/Snare.wav" Vol="1.000000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="17138" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad1>
+            <Pad2 Nam="/User/TRG Banks/Default.trg/HH-CL.wav" Vol="0.455000" Pan="0.420000" Tps="0" Pit="0" Bus="0" Grp="1" Sta="0" End="10591" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad2>
+            <Pad3 Nam="/User/TRG Banks/Default.trg/HH-OP.wav" Vol="0.335000" Pan="0.410000" Tps="0" Pit="0" Bus="0" Grp="1" Sta="0" End="88319" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad3>
+            <Pad4 Nam="/User/TRG Banks/Default.trg/TomHi.wav" Vol="0.515000" Pan="0.350000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="45695" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad4>
+            <Pad5 Nam="/User/TRG Banks/Default.trg/TomMid.wav" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="83716" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad5>
+            <Pad6 Nam="/User/TRG Banks/Default.trg/TomLo.wav" Vol="0.500000" Pan="0.630000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="38617" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad6>
+            <Pad7 Nam="" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="0" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad7>
+            <Pad8 Nam="/User/TRG Banks/Default.trg/Ride1.wav" Vol="0.860000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="40191" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad8>
+            <Pad9 Nam="/User/TRG Banks/Default.trg/Ride2.wav" Vol="0.745000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="62975" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad9>
+            <Pad10 Nam="/User/TRG Banks/Default.trg/Crash1.wav" Vol="0.420000" Pan="0.315000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="134143" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad10>
+            <Pad11 Nam="/User/TRG Banks/Default.trg/Crash2.wav" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="125737" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad11>
+            <Pad12 Nam="" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="0" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad12>
+            <Pad13 Nam="" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="0" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad13>
+            <Pad14 Nam="" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="0" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad14>
+            <Pad15 Nam="" Vol="0.500000" Pan="0.500000" Tps="0" Pit="0" Bus="0" Grp="0" Sta="0" End="0" Dir="Forward" Trg="Trigger">
+               <AmpEnv Version="1" Flags="3" A="0.000000" D="0.000000" S="1.000000" R="0.000000" Amount="1.000000" Invert="0"/>
+            </Pad15>
+            <Out0 Rev="0.075000" Del="0.000000" Enable="0" Type="LP" Cutoff="0.000000" Q="0.000000"/>
+            <Out1 Rev="0.000000" Del="0.000000" Enable="0" Type="LP" Cutoff="0.000000" Q="0.000000"/>
+            <Out2 Rev="0.000000" Del="0.000000" Enable="0" Type="LP" Cutoff="0.000000" Q="0.000000"/>
+         </AM>
+         <UI Name="TRG"/>
+      </Instr>
+      <Instr Type="Eden" Index="2" MIDIInTranspose="0" TopPanel="Osc" MLIndex="0" LFOIndex="0" PbyIdx="0" PbyPos="0.000000">
+         <MixerChannels>
+            <Channel00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+         </MixerChannels>
+         <AM Mode="Single" SingleI="11" MultiI="0" Modified="true" Compare="false" EditPresetData="AwAAAEludGVydmFscwAAAAAAAAAAAAAAAAAAAAgAAAACAAAAzczMPQIAAAC4HgU/exQOPwAA
+AAABAAAAAQAAACUAAAAAAAAAAAAAAAEAAAAkAAAAAACgQAAAAAAAAAAAH4VrPQAAAD8CAAAA
+AAAAAAAAAAAAAAA/AQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAA
+AABSuD4/8ihMP1K4Pj8AAIA/rEehPgAAAAABAAAAAwAAABeuRz8AAAA/XI9SP9LMDD9auN4+
+AAAAAAIAAAAAAAAAL/lrQAAAAACF65E+chTQPwAAAAACAAAABgAAALgejUAAAAAArkchPwAA
+AAAAAAAAAgAAAAUAAAC4Ho1AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAANZdIQAAAAAAzMzM+
+CtcjPwEAAAABAAAAAAAAAAnXgz4fhQs/tR7FPsP1qD57FO4+AAAAAAEAAAABAAAAAQAAAAQA
+AAACAAAAAQAAAAEAAAABAAAAZAAAAAEAAAAFAAAABAAAAGQAAAABAAAAAwAAAAQAAABkAAAA
+AQAAAAIAAAAAAAAAZAAAAAEAAAADAAAABAAAAAAAAAABAAAAAgAAAAAAAABkAAAAAQAAAAIA
+AAABAAAAZAAAAAEAAAAJAAAAAQAAAGQAAAABAAAACQAAAAAAAABkAAAAAQAAAA8AAAAAAAAA
+ZAAAAAEAAAAAAAAAAQAAAJqZWT8AAAA/AABAPwIAAAADAAAAAQAAAAAAAADij6I8MzOzPoHN
+KT4fhSs+1CuFPgEAAAAMAss+rkdhPgEAAAAAAAAAAAAAAAAAAAC9rAk8AAAAAAAAAADu7u7u
+PEVNUFRZPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8BAAAAAAAAAAAAAAB/AAAADAAAADMz
+sz4BAAAAAAAAAAAAAAB/AAAA/////wAAQD8BAAAA6P///wAAAAB/AAAA/////wAAQD8BAAAA
+AAAAAAAAAAB/AAAAAQAAAAEAAAABAAAAAACAPwAAAD8AAEA/AgAAAAAAAAABAAAAAAAAAKlK
+uz0AAIA+yorhPAAAAAAAAIA+AwAAAAAAAD8AAIA+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+uB6FPWZmZj4BAAAAAAAAAA==
+"/>
+         <UI Name="Eden 1"/>
+      </Instr>
+      <Instr Type="Eden" Index="3" MIDIInTranspose="0" TopPanel="Osc" MLIndex="0" LFOIndex="0" PbyIdx="0" PbyPos="0.000000">
+         <MixerChannels>
+            <Channel00 Vol="0.789991" Pan="0.495000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+         </MixerChannels>
+         <AM Mode="Single" SingleI="11" MultiI="0" Modified="true" Compare="false" EditPresetData="AwAAAEludGVydmFscwAAAAAAAAAAAAAAAAAAAAgAAAACAAAAzczMPQIAAAC4HgU/exQOPwAA
+AAABAAAAAQAAACUAAAAAAAAAAAAAAAEAAAAkAAAAAACgQAAAAAAAAAAAH4VrPQAAAD8CAAAA
+AAAAAAAAAAAAAAA/AQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAA
+AABSuD4/4XpUP/Yo3D4AAIA/j8J1PgAAAAABAAAAAwAAAPYoXD8AAAA/h+shP+pReD9ACgc/
+AAAAAAIAAAAAAAAAL/lrQAAAAACF65E+chTQPwAAAAACAAAABgAAALgejUAAAAAArkchPwAA
+AAAAAAAAAgAAAAUAAAC4Ho1AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAANZdIQAAAAAAzMzM+
+CtcjPwEAAAABAAAAAAAAAArXozsfhQs/AAAAAMP1qD57FO4+AAAAAAEAAAABAAAAAQAAAAQA
+AAACAAAAAQAAAAEAAAABAAAAZAAAAAEAAAAFAAAABAAAAGQAAAABAAAAAwAAAAQAAABkAAAA
+AQAAAAIAAAAAAAAAZAAAAAEAAAADAAAABAAAAAAAAAABAAAAAgAAAAAAAABkAAAAAQAAAAIA
+AAABAAAAZAAAAAEAAAAJAAAAAQAAAGQAAAABAAAACQAAAAAAAABkAAAAAQAAAA8AAAAAAAAA
+ZAAAAAEAAAAAAAAAAQAAAJqZWT8AAAA/AABAPwIAAAADAAAAAQAAAAAAAADij6I8MzOzPoHN
+KT4fhSs+1CuFPgEAAAAMAss+rkdhPgEAAAAAAAAAAAAAAAAAAAC9rAk8AAAAAAAAAADu7u7u
+PEVNUFRZPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8BAAAAAAAAAAAAAAB/AAAADAAAADMz
+sz4BAAAAAAAAAAAAAAB/AAAA/////wAAQD8BAAAA6P///wAAAAB/AAAA/////wAAQD8BAAAA
+AAAAAAAAAAB/AAAAAQAAAAEAAAABAAAAAACAPwAAAD8AAEA/AgAAAAAAAAABAAAAAAAAAKlK
+uz0AAIA+yorhPAAAAAAAAIA+AwAAAAAAAD8AAIA+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+uB6FPWZmZj4BAAAAAAAAAA==
+"/>
+         <UI Name="Eden 2"/>
+      </Instr>
+      <Instr Type="Eden" Index="4" MIDIInTranspose="0" TopPanel="" MLIndex="0" LFOIndex="0" PbyIdx="0" PbyPos="0.000000">
+         <MixerChannels>
+            <Channel00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+         </MixerChannels>
+         <AM Mode="Single" SingleI="0" MultiI="0" Modified="false" Compare="false"/>
+         <UI Name="Eden 3"/>
+      </Instr>
+      <Instr Type="Eden" Index="5" MIDIInTranspose="0" TopPanel="" MLIndex="0" LFOIndex="0" PbyIdx="0" PbyPos="0.000000">
+         <MixerChannels>
+            <Channel00 Vol="0.790000" Pan="0.500000" Mute="0">
+               <InsertFX>
+                  <Nodes>
+                     <IN/>
+                     <SLOT1/>
+                     <SLOT2/>
+                     <SLOT3/>
+                     <SLOT4/>
+                     <OUT/>
+                  </Nodes>
+               </InsertFX>
+            </Channel00>
+         </MixerChannels>
+         <AM Mode="Single" SingleI="0" MultiI="0" Modified="false" Compare="false"/>
+         <UI Name="Eden 4"/>
+      </Instr>
+   </Instruments>
+</Root>
