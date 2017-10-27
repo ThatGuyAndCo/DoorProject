@@ -2035,6 +2035,9 @@ MonoBehaviour:
   m_mixers:
   - {fileID: 243781058052784188, guid: 4680fe2d9d4b53943b0d3972ed762fd6, type: 2}
   - {fileID: 243721892112049674, guid: 4680fe2d9d4b53943b0d3972ed762fd6, type: 2}
+  m_interactionClips:
+  - {fileID: 8300000, guid: 542e8021b05ed934e9d51ac47ccb3951, type: 3}
+  - {fileID: 8300000, guid: 4f7ae7fc138794a47a53e955a7cc1bc2, type: 3}
 --- !u!82 &1647094409
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2045,7 +2048,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243781058052784188, guid: 4680fe2d9d4b53943b0d3972ed762fd6,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 77b3fa57b2c5341418b56357f5556820, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 542e8021b05ed934e9d51ac47ccb3951, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
