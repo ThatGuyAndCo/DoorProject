@@ -16,6 +16,8 @@ public class ActivateCrystal : MonoBehaviour {
 
 	private AudioSource m_audio;
 
+	private bool m_playTrue;
+
 	// Use this for initialization
 	void Start () {
 		m_anim = GetComponent<Animator> ();
@@ -29,11 +31,27 @@ public class ActivateCrystal : MonoBehaviour {
 			m_audio.outputAudioMixerGroup = m_mixers [1];
 			m_audio.clip = m_interactionClips [1];
 			m_audio.Play ();
+			m_playTrue = false;
+			CrystalOpenAudio();
 		} else if(Input.GetKeyDown (KeyCode.Space)){
 			m_anim.SetBool ("CrystalOpen", true);
 			m_audio.outputAudioMixerGroup = m_mixers [0];
 			m_audio.clip = m_interactionClips [0];
 			m_audio.Play ();
+			m_playTrue = true;
+			Invoke ("CrystalOpenAudio", 2.8);
+		}
+	}
+
+	void CrystalOpenAudio(){
+		if (m_playTrue) {
+			m_audio.clip = m_interactionClips [2];
+			m_audio.Play ();
+			m_audio.volume = 0.6;
+			m_audio.loop = true;
+		} else {
+			m_audio.volume = 1;
+			m_audio.loop = false;
 		}
 	}
 
