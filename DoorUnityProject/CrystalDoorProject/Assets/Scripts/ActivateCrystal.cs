@@ -39,7 +39,7 @@ public class ActivateCrystal : MonoBehaviour {
 			m_audio.clip = m_interactionClips [0];
 			m_audio.Play ();
 			m_playTrue = true;
-			Invoke ("CrystalOpenAudio", 2.8);
+			Invoke ("CrystalOpenAudio", 2.8f);
 		}
 	}
 
@@ -47,7 +47,7 @@ public class ActivateCrystal : MonoBehaviour {
 		if (m_playTrue) {
 			m_audio.clip = m_interactionClips [2];
 			m_audio.Play ();
-			m_audio.volume = 0.6;
+			m_audio.volume = 0.6f;
 			m_audio.loop = true;
 		} else {
 			m_audio.volume = 1;
